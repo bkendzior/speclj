@@ -1,0 +1,8 @@
+---
+:tddium:
+  :clojure:
+    :leiningen_version: '2.4.2'
+  :hooks:
+    :pre: 'lein install && lein compile'
+  :tests:
+    - lein spec
