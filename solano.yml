@@ -6,3 +6,4 @@
     :pre: 'lein install && lein compile'
   :tests:
     - lein spec
+  timeout_hook: 1200
